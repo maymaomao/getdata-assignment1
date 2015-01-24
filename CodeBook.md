@@ -33,10 +33,10 @@ The numeric labels for activities were converted to descriptive ones using the m
 4. sitting
 5. standing
 6. laying
-7. 
+
 Then an independent tidy data frame was created using the aggretate function with the average of each variable for each activity and each subject. As a result of aggregating, new columns were made making some of the old ones unneccessary. The old ones were deleted and the new ones were renamed.
 
-The tidy data frame was written to a file called "activitydata.txt" in the working directory.
+The tidy data frame was written to a file called "tidydata.txt" in the working directory.
 
 ##Data Dictionary
 
@@ -44,7 +44,7 @@ The identifiers are as follows:
 
 - participant - the participant number (1-30)
 - activity - the activity description
-- 
+
 The vector information contains 81 rows that are compromised of many elements for each measurement. For example "tBodyAcc-mean-X" denotes a measurement of the mean of a person's acceleration along the x axis as calculated using time. Below are the list of parameters that appear in the tidy data set:
 
 - t prefix - measurement was calculated using the time domain
