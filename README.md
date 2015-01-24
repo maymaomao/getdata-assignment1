@@ -1,8 +1,11 @@
 # Tidy data set for activity sensors
 
-Step 1 - download the "run_analysis.R" file
-Step 2 - set your working directory to where the file is
+Step 1 - download the "run_analysis.R" file  
+
+Step 2 - set your working directory to where the file is  
+
 Step 3 - run the file
+
 Step 4 - read in the file produced from the code using read.table("tidydata.txt")
 
 ##Study design
@@ -41,17 +44,17 @@ The next step was to create a summarising data frame that displayed only mean an
 
 The numeric labels for activities were converted to descriptive ones using the map values function and activity_labels text file. They were then tidied up by changing the characters to lower case and replacing underscores with spaces which produced the following labels.
 
-1.walking
+1. walking
 
-2.walking upstairs
+2. walking upstairs
 
-3.walking downstairs
+3. walking downstairs
 
-4.sitting
+4. sitting
 
-5.standing
+5. standing
 
-6.laying
+6. laying
 
 Then an independent tidy data frame was created using the aggretate function with the average of each variable for each activity and each subject. As a result of aggregating, new columns were made making some of the old ones unneccessary. The old ones were deleted and the new ones were renamed.
 
